@@ -1,0 +1,113 @@
+* {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+
+#navbar {
+	height: 100%;
+	width: 300px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color:white;
+	padding-top: 20px;
+	overflow: auto;
+}
+
+nav header {
+	text-align: center;
+	font-size: 30px;
+	padding-bottom: 10px;
+	position: fixed;
+	top: 0;
+	background-color: white;
+	width: 285px;
+	padding-top: 1rem;
+}
+
+#navbar a:first-of-type {
+	padding-top: 3rem;
+}
+
+#navbar a {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	padding-left: 1.5rem;
+	letter-spacing: 1px;
+	text-decoration: none;
+	color: gray;
+	display: block;
+	border-bottom: .5px solid black;
+}
+
+#navbar a:last-of-type {
+	padding-bottom: 2rem;
+}
+
+#navbar a:hover {
+	font-size: 20px;
+}
+
+#main-doc {
+	margin-left: 300px;
+	padding: 0px 10px;
+}
+
+section {
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+section header {
+	font-size: 30px;
+	padding-top: 1rem;
+}
+
+section p, section ul > li {
+	letter-spacing: 1px;
+}
+
+#main-doc p, #main-doc ul {
+	color: gray;
+}
+
+pre code {
+	display: block;
+	padding: 20px;
+	background-color: lightgray;
+}
+
+@media screen and (max-width:800px) {
+	#navbar {
+		height: 100%;
+		width: 300px;
+		position: fixed;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		background-color:white;
+		padding-top: 20px;
+		overflow: auto;
+	}
+}
+
+@media screen and (max-width: 480px) and (min-width: 320px) {
+	nav header {
+		width: 200px;
+		font-size: 20px;
+	}
+	#navbar {
+		width: 200px;
+	}
+	
+	#main-doc {
+		margin-left: 170px;
+		padding-left: 10px;
+		padding-right: 1px;
+		margin-right: 1px;
+	}
+}
