@@ -111,12 +111,12 @@ pre code {
 	}
 	
 	#navbar {
-		width: 200px;
+		width: 160px;
 		height: 100vh;
 		overflow: auto;
 	}
 	
 	#main-doc {
-		margin-left: 200px;
+		margin-left: 160px;
 	}
 }
