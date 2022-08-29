@@ -107,7 +107,7 @@ pre code {
 	
 	nav header {
 		width: 100px;
-		font-size: 20px;
+		font-size: 10px;
 	}
 	
 	#navbar {
@@ -115,8 +115,15 @@ pre code {
 		height: 100vh;
 		overflow: auto;
 	}
+
+        navbar a {
+                padding-left: 0;
+                margin-left: 0;
+        }
 	
 	#main-doc {
 		margin-left: 130px;
+                padding-right: 0;
+                margin-right: 5px;
 	}
 }
